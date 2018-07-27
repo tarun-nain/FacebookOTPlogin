@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lwphp1.myapplication.SignedIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/et_phonenumber"
+        android:layout_width="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        style="@style/Base.V12.Widget.AppCompat.EditText"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/et_email"
+            android:layout_width="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            style="@style/Base.V12.Widget.AppCompat.EditText"/>
+    </LinearLayout>
+
+
+
+
+    <Button
+android:id="@+id/btn_logout"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+android:text="@string/logout"
+style="@style/Base.Widget.AppCompat.Button.Colored" />
+
+    </RelativeLayout>

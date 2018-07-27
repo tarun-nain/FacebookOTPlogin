@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OTP App</string>
+    <string name="FACEBOOK_APP_ID">1567225036657913</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">[7c9b7d85a0cd8ce06626153251bdfa48]</string>
+    <string name="AK_LOGIN_PROTOCOL_SCHEME">[ak7c9b7d85a0cd8ce06626153251bdfa48]</string>
+    <string name="logout">logout</string>
+</resources>
